@@ -1,0 +1,27 @@
+img {
+    width: 100%;
+}
+
+@media(min-width:768px) {
+    .columnas {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media(max-width:768px) {
+    .columnas2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media(max-width:478px) {
+    .columnas1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+}
